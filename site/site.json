@@ -1,0 +1,55 @@
+{
+  "name": "Season Games",
+  "language": "en",
+  "base_url": "",
+  "checked_on": "2026-10-24",
+  "pages": [
+    {"key":"home", "path":"index.html", "title":"History to explore. Worlds to create.", "description":"Discover SanguoSeason, Sanguo3D, Creators and Ming: historical and imagined strategy worlds from a small independent team.", "nav":"home", "theme":"home"},
+    {"key":"classic", "path":"sanguoseason/index.html", "title":"SanguoSeason — the classic, renewed", "description":"SanguoSeason: the classic 三国春秋, renewed with its Gusu-inspired heritage. Introduction, reading, workshop notes and legacy downloads.", "nav":"classic", "theme":"classic", "kind":"project"},
+    {"key":"new-sanguo", "path":"sanguo3d/index.html", "title":"Sanguo3D — a new Three Kingdoms world", "description":"Sanguo3D is the development codename for a new 3D Three Kingdoms project. It is still in early development, and its final title has not been decided.", "nav":"new-sanguo", "theme":"sanguo3d", "kind":"project"},
+    {"key":"creators", "path":"creators/index.html", "title":"Creators — a world of your making", "description":"Creators is a culturally neutral, multilingual strategy game concept focused on player-led building in an imagined world.", "nav":"creators", "theme":"creators", "kind":"project"},
+    {"key":"ming", "path":"ming/index.html", "title":"Ming — history before the world", "description":"A longer-term late-Ming project: historical research first, with the potential to reuse Sanguo3D’s technical architecture.", "nav":"ming", "theme":"ming", "kind":"project"},
+    {"key":"zhsan", "path":"games/zhsan/index.html", "title":"ZHSan — an independent companion branch", "description":"The independently maintained SeasonRealms branch of Zhonghua Sanguozhi. A companion project, not a Season-owned game brand.", "nav":"", "theme":"zhsan", "kind":"project"},
+    {"key":"library", "path":"sanguo3d/reading/three-kingdoms/index.html", "title":"A short introduction to the Three Kingdoms", "description":"The historical setting behind Sanguo3D and SanguoSeason: Wei, Shu, Wu, and the difference between history and storytelling.", "nav":"new-sanguo", "theme":"sanguo3d"},
+    {"key":"painted-world", "path":"sanguoseason/reading/a-painted-world/index.html", "title":"A painted world, not a single style", "description":"From the Gusu Prosperity painting to blue-green mountains: the visual roots of SanguoSeason and Sanguo3D.", "nav":"classic", "theme":"classic"},
+    {"key":"about", "path":"about/index.html", "title":"About this collection", "description":"About Season Games, its four project directions, the independent ZHSan companion branch, and artwork credits.", "nav":"", "theme":"home"}
+  ],
+  "projects": {
+    "classic": {"name":"SanguoSeason", "status":"The classic · Renewal in progress", "tagline":"A familiar world, renewed with care.", "summary":"Return to SanguoSeason: painted cities, a wide strategic map, and the warmth of the Gusu scroll. A classic being renewed without leaving its past behind.", "image":"classic-archive.jpg", "image_alt":"Warm-toned promotional composition from the original SanguoSeason website", "caption":"Original game archive · Not a renewal screenshot", "setting":"Historical Three Kingdoms", "focus":"Renewing the classic", "availability":"Legacy Windows and Android links", "reading_title":"The scroll, the setting, and the game", "workshop_title":"What stays with the classic"},
+    "new-sanguo": {"name":"Sanguo3D", "status":"Development codename · Early development", "tagline":"Painted mountains. A new dimension.", "summary":"A new Three Kingdoms world in 3D, shaped by blue-green mountain landscapes. Passes, cities and rivers belong not only in the painting, but in your strategy.", "image":"mountains.jpg", "image_alt":"Layered blue-green mountains, waterways and small settlements", "caption":"Landscape reference · Not 3D gameplay", "setting":"Historical Three Kingdoms", "focus":"A new world in 3D", "availability":"No public test link listed", "reading_title":"Understanding the Three Kingdoms", "workshop_title":"Shaping the new world"},
+    "creators": {"name":"Creators", "status":"Imagined-world strategy · Concept direction", "tagline":"A world of your making.", "summary":"A culturally neutral, multilingual counterpart to Sanguo3D. Similar strategic foundations, but an imagined setting and a focus on what players choose to build.", "image":"creators-map.svg", "image_alt":"Abstract terrain contours and connected settlement shapes on a planning sheet", "caption":"Site illustration · Not game artwork or gameplay", "setting":"An imagined, culturally neutral world", "focus":"Player-led building across languages", "availability":"No public build announced here", "reading_title":"Building without an inherited history", "workshop_title":"A distinct design direction"},
+    "ming": {"name":"Ming", "status":"Late-Ming project · Longer-term direction", "tagline":"History before the world.", "summary":"A future late-Ming project, beginning with the historical groundwork it needs. Sanguo3D’s technical architecture can support it; the history must be studied on its own terms.", "image":"ming-study.svg", "image_alt":"An editorial arrangement of research pages, river lines and a red archival-style seal", "caption":"Research-themed site illustration · Not a historical document", "setting":"The late Ming", "focus":"Historical research before production", "availability":"No public build or release date", "reading_title":"A reading room still to be assembled", "workshop_title":"Research first, shared technology later"},
+    "zhsan": {"name":"ZHSan", "status":"Companion project · Independent branch", "tagline":"A separate path, shared affection.", "summary":"The SeasonRealms branch of Zhonghua Sanguozhi (中华三国志). Independently maintained as a companion project, with respect for the original team’s brand and community.", "image":"zhsan.png", "image_alt":"ZHSan dragon emblem", "caption":"Zhonghua Sanguozhi · A separate project’s identity", "setting":"Historical Three Kingdoms", "focus":"Independent branch maintenance", "availability":"Source repository and release information", "reading_title":"Know which branch you are using", "workshop_title":"Maintenance and platform status"}
+  },
+  "redirects": {
+    "games/index.html": {"target":"index.html#projects"},
+    "games/sanguoseason/index.html": {"target":"sanguoseason/index.html", "fragments":{"heritage":"sanguoseason/index.html#reading", "renewal":"sanguoseason/index.html#workshop", "separate":"sanguoseason/index.html#overview", "play":"sanguoseason/index.html#downloads"}},
+    "games/new-sanguo/index.html": {"target":"sanguo3d/index.html", "fragments":{"landscape":"sanguo3d/index.html#overview", "seasontree":"sanguo3d/index.html#reading", "identity":"sanguo3d/index.html#overview", "testing":"sanguo3d/index.html#downloads"}},
+    "downloads/index.html": {"target":"index.html#projects", "fragments":{"classic":"sanguoseason/index.html#downloads", "new-sanguo":"sanguo3d/index.html#downloads", "zhsan":"games/zhsan/index.html#downloads", "questions":"sanguoseason/index.html#downloads"}},
+    "journal/index.html": {"target":"index.html#projects", "fragments":{"classic":"sanguoseason/index.html#workshop", "new-world":"sanguo3d/index.html#workshop", "website":"about/index.html"}},
+    "library/index.html": {"target":"sanguo3d/reading/three-kingdoms/index.html", "preserve_fragment":true},
+    "library/a-painted-world/index.html": {"target":"sanguoseason/reading/a-painted-world/index.html", "preserve_fragment":true}
+  },
+  "downloads": {
+    "classic": [
+      {"platform":"Windows", "note":"Legacy ZIP from the previous website. It is not identified as the renewed edition; back up existing saves before trying it.", "label":"Get legacy ZIP", "url":"https://seasont.com/sanguo/docs/SanguoSeason.zip"},
+      {"platform":"Android", "note":"Legacy APK from the previous website. A direct installer, not a Google Play release; check device compatibility before installation.", "label":"Get legacy APK", "url":"https://seasont.com/sanguo/docs/com.season.sanguoseason.apk"},
+      {"platform":"Microsoft Store", "note":"A store listing for the renewed SanguoSeason has not been linked on this site yet.", "label":"Link not yet listed", "url":null},
+      {"platform":"App Store", "note":"A store listing for SanguoSeason has not been linked on this site yet.", "label":"Link not yet listed", "url":null},
+      {"platform":"Google Play", "note":"A store listing for SanguoSeason has not been linked on this site yet.", "label":"Link not yet listed", "url":null}
+    ],
+    "new-sanguo": [
+      {"platform":"3D test build", "note":"No public test URL is listed here yet. The landscape studies on this site are not footage from a released 3D game.", "label":"Test link not yet listed", "url":null}
+    ],
+    "creators": [
+      {"platform":"Public build", "note":"Creators is a separate concept direction. No playable release, test link or supported-language list has been announced here.", "label":"Not yet available", "url":null}
+    ],
+    "ming": [
+      {"platform":"Public build", "note":"Ming is a longer-term project requiring substantial historical preparation. There is no installer or public testing programme listed here.", "label":"Not yet available", "url":null}
+    ],
+    "zhsan": [
+      {"platform":"Source code", "note":"The independently maintained SeasonRealms branch. Building from source is different from installing a packaged release.", "label":"Visit source repository", "url":"https://github.com/SeasonRealms/ZHSan"},
+      {"platform":"Packaged builds", "note":"No release package was listed on the branch’s GitHub Releases page when this directory was prepared. Check the project for later availability.", "label":"Check GitHub Releases", "url":"https://github.com/SeasonRealms/ZHSan/releases"}
+    ]
+  }
+}

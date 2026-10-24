@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="description" content="The requested page could not be found on {{site_name}}.">
+  <meta name="color-scheme" content="light dark">
+  <title>Page not found · {{site_name}}</title>
+  <!-- 自包含错误页，避免仓库子路径或深层缺失地址导致资源失效。 -->
+  <script>{{theme_script}}</script>
+  <style>
+    :root { color-scheme: light; --paper: #f4efe3; --ink: #293d35; --green: #315e4d; --gold: #855b2a; --rule: #cfc8b4; }
+    [data-theme="dark"] { color-scheme: dark; --paper: #131f1c; --ink: #e8e1d1; --green: #a0bca3; --gold: #d2ae74; --rule: #455046; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.8 "Segoe UI", sans-serif; }
+    main { max-width: 660px; margin: 12vh auto; padding: 30px; }
+    h1 { font: 400 clamp(2.3rem, 7vw, 3.5rem)/1.2 "Palatino Linotype", Georgia, serif; }
+    .eyebrow { color: var(--gold); font-size: .8rem; letter-spacing: .13em; text-transform: uppercase; }
+    a { color: var(--green); text-underline-offset: .25em; }
+    button { font: inherit; background: transparent; color: var(--ink); border: 1px solid var(--rule); padding: 8px 14px; cursor: pointer; min-height: 44px; }
+    .utility { border-bottom: 1px solid var(--rule); font-size: .72rem; }
+    .utility .wrap { width: 100%; max-width: 1160px; margin-inline: auto; padding-inline: 20px; display: flex; justify-content: flex-end; align-items: center; gap: 18px; height: 36px; }
+    .utility a { text-decoration: none; }
+    .language { display: inline-flex; align-items: center; gap: 4px; white-space: nowrap; flex-shrink: 0; }
+    .theme-toggle { display: block; flex: 0 0 26px; width: 26px; height: 26px; min-height: 0; border: 0; background: transparent; padding: 0; line-height: 0; }
+    .theme-icon { display: block; width: 26px; height: 26px; }
+    .theme-icon-night { display: none; }
+    [data-theme="dark"] .theme-icon-day { display: none; }
+    [data-theme="dark"] .theme-icon-night { display: block; }
+    :focus-visible { outline: 2px solid var(--gold); outline-offset: 4px; }
+    [hidden] { display: none !important; }
+    footer { border-top: 1px solid var(--rule); margin-top: 40px; padding-top: 20px; font-size: .8rem; }
+  </style>
+</head>
+<body>
+  <div class="utility"><div class="wrap"><span class="language"><a href="https://seasonrealms.github.io/SeasonHistory" lang="en">EN</a> <span aria-hidden="true">/</span> <a href="https://seasont.com" lang="zh-CN">中文</a></span><button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to day theme" hidden><img class="theme-icon theme-icon-day" src="{{sun_image}}" alt="" width="26" height="26" aria-hidden="true"><img class="theme-icon theme-icon-night" src="{{moon_image}}" alt="" width="26" height="26" aria-hidden="true"></button></div></div>
+  <main id="main">
+    <p class="eyebrow">{{site_name}} · 404</p>
+    <h1>This path ends here.</h1>
+    <p>The page may have moved, or the address may be incomplete. The rest of the world is still there to explore.</p>
+    {{recovery}}
+    <footer><p><span data-theme-preference>Appearance</span> · <button type="button" data-theme-reset hidden>Use device setting</button></p></footer>
+  </main>
+  <script>{{interaction_script}}</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <title>An imagined world on a planning sheet</title>
+  <desc>Original site illustration of terrain contours and connected settlement shapes. Not game artwork or a gameplay screen.</desc>
+  <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#53776c" stroke-opacity=".12"/></pattern><linearGradient id="paper" x2="1" y2="1"><stop stop-color="#e9efe5"/><stop offset="1" stop-color="#c4d5c8"/></linearGradient></defs>
+  <rect width="1200" height="600" fill="url(#paper)"/><rect width="1200" height="600" fill="url(#grid)"/>
+  <g fill="none" stroke="#638576" stroke-width="2" opacity=".55"><path d="M-40 165C100 30 165 280 330 170S600 80 700 180 990 255 1250 25"/><path d="M-40 190C100 55 165 305 330 195S600 105 700 205 990 280 1250 50"/><path d="M-40 215C100 80 165 330 330 220S600 130 700 230 990 305 1250 75"/><path d="M-40 240C100 105 165 355 330 245S600 155 700 255 990 330 1250 100"/><path d="M-40 455C150 270 230 570 420 425S650 310 760 435 1030 435 1240 280"/><path d="M-40 480C150 295 230 595 420 450S650 335 760 460 1030 460 1240 305"/><path d="M-40 505C150 320 230 620 420 475S650 360 760 485 1030 485 1240 330"/></g>
+  <path d="M470-20C690 95 310 215 520 325S720 435 590 640" fill="none" stroke="#96bdbb" stroke-width="34"/><path d="M470-20C690 95 310 215 520 325S720 435 590 640" fill="none" stroke="#dcebe5" stroke-width="12"/>
+  <g fill="none" stroke="#a78047" stroke-width="3" stroke-dasharray="6 9"><path d="M220 300L490 300 850 160M490 300L850 430"/><path d="M850 160V430"/></g>
+  <g fill="#f6f2df" stroke="#365a4f" stroke-width="3"><circle cx="220" cy="300" r="32"/><circle cx="490" cy="300" r="42"/><circle cx="850" cy="160" r="28"/><circle cx="850" cy="430" r="36"/></g>
+  <g fill="#4e7662"><path d="M200 310v-20h16v20zm24 0v-28h16v28zM470 320v-30h16v30zm23 0v-45h16v45zm23 0v-22h12v22zM838 170v-23h24v23zM830 443v-23h16v23zm23 0v-35h20v35z"/></g>
+  <g fill="none" stroke="#557365" stroke-width="2"><circle cx="1080" cy="95" r="30"/><path d="M1080 45v100m-50-50h100M45 530h130m-130-8v16m65-16v16m65-16v16"/></g>
+</svg>

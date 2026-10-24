@@ -1,0 +1,17 @@
+<div class="wrap">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{{root}}index.html">Home</a><span aria-hidden="true">/</span><span aria-current="page">{{project_name}}</span></nav>
+  <header class="project-heading">
+    <div><p class="eyebrow">{{status}}</p><h1>{{project_name}}</h1><p class="project-tagline">{{tagline}}</p><p class="lede">{{summary}}</p><div class="actions"><a class="button primary" href="#overview">Discover the project <span aria-hidden="true">↓</span></a>{{download_action}}</div></div>
+    <figure class="project-visual">{{image}}<figcaption>{{caption}}</figcaption></figure>
+  </header>
+  <nav class="project-nav jump-links" aria-label="{{project_name}} sections"><a href="#overview">Overview</a><a href="#reading">Reading room</a><a href="#workshop">Workshop</a><a href="#downloads">Downloads &amp; availability</a></nav>
+  <div class="article-layout">
+    <div class="prose project-prose">
+      <section id="overview" aria-labelledby="overview-title"><p class="eyebrow">01 · The project</p><h2 id="overview-title">{{tagline}}</h2>{{overview}}</section>
+      <section id="reading" aria-labelledby="reading-title"><p class="eyebrow">02 · Reading room</p><h2 id="reading-title">{{reading_title}}</h2>{{reading}}</section>
+      <section id="workshop" aria-labelledby="workshop-title"><p class="eyebrow">03 · Workshop</p><h2 id="workshop-title">{{workshop_title}}</h2>{{workshop}}</section>
+    </div>
+    <aside class="margin-note"><h2>Project at a glance</h2><dl class="facts"><dt>Setting</dt><dd>{{setting}}</dd><dt>Focus</dt><dd>{{focus}}</dd><dt>Availability</dt><dd>{{availability}}</dd></dl><hr><p>Reading, development notes, and downloads on this page belong to {{project_name}}. Plans are not release announcements.</p><a class="text-link" href="{{root}}index.html#projects">All projects</a></aside>
+  </div>
+  <section class="download-block project-downloads" id="downloads" aria-labelledby="downloads-title"><p class="eyebrow">04 · {{project_name}}</p><h2 id="downloads-title">Downloads &amp; availability</h2><div class="prose">{{downloads_note}}</div>{{downloads}}<p class="meta">Directory information prepared: {{checked_on}}. External availability may change.</p></section>
+</div>

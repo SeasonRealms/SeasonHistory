@@ -1,0 +1,74 @@
+<!doctype html>
+<!-- 此页由 tools/build_site.py 生成；内容来源为 site/pages，公共布局为 site/layout.html。 -->
+<html lang="{{language}}" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>{{title}} · {{site_name}}</title>
+  <meta name="description" content="{{description}}">
+  <meta property="og:type" content="{{og_type}}">
+  <meta property="og:title" content="{{title}} · {{site_name}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:site_name" content="{{site_name}}">
+  {{social_meta}}
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="{{root}}assets/img/site-mark.png">
+  <script src="{{root}}assets/js/theme.js"></script>
+  <link rel="stylesheet" href="{{root}}assets/css/history.css">
+  <script src="{{root}}assets/js/history.js" defer></script>
+  {{page_scripts}}
+</head>
+<body data-project="{{project_theme}}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="utility">
+    <div class="wrap">
+      <span class="utility-tag">Historical &amp; imagined strategy worlds</span>
+      <div class="utility-links">
+        <a class="family-link" href="https://seasonrealms.github.io/SeasonEngine">SeasonEngine</a>
+        <a class="family-link" href="https://seasonrealms.github.io/SeasonStudio">SeasonStudio</a>
+        <span class="language"><a href="https://seasonrealms.github.io/SeasonHistory" lang="en">EN</a> <span aria-hidden="true">/</span> <a href="https://seasont.com" lang="zh-CN">中文</a></span>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to day theme" hidden><img class="theme-icon theme-icon-day" src="{{root}}assets/img/Sun.png" alt="" width="26" height="26" aria-hidden="true"><img class="theme-icon theme-icon-night" src="{{root}}assets/img/Moon.png" alt="" width="26" height="26" aria-hidden="true"></button>
+      </div>
+    </div>
+  </div>
+  <header class="header">
+    <div class="wrap header-inner">
+      <a class="brand" href="{{root}}index.html" aria-label="{{site_name}} home">
+        <img src="{{root}}assets/img/site-mark.png" alt="" width="45" height="45">
+        <span><span class="brand-name">{{site_name}}</span><span class="brand-note">Heroes’ lives, retold through strategy.</span></span>
+      </a>
+      <nav class="nav-links" id="site-navigation" aria-label="Main navigation">{{navigation}}</nav>
+      <div class="header-tools">
+        <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-navigation">Menu</button>
+      </div>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    {{content}}
+  </main>
+  <div class="closing">
+    <div class="wrap">
+      <div><h2>Different worlds. A shared curiosity.</h2><p>Choose a world. Read its stories, and watch it grow.</p><p>Pasts to discover, new worlds for you to build.</p><p>Mountains, cities, and the everyday lives between.</p></div>
+      <a class="button" href="{{root}}index.html#projects">Explore the projects <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-main">
+        <p class="footer-verse">Spring brings us together in the hills; wine and laughter brighten the autumn moon.</p>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="{{root}}about/index.html">About</a>
+          <a href="{{root}}about/index.html#credits">Art &amp; credits</a>
+          <a href="{{root}}about/index.html#privacy">Privacy</a>
+          <a href="{{root}}index.html#zhsan">Companion project</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <span>Who can say what lies beyond sea and sky? In time, a brighter world will come.</span>
+        <span><span data-theme-preference>Appearance</span> · <button type="button" class="theme-reset" data-theme-reset hidden>Use device setting</button></span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

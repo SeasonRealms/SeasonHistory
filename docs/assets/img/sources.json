@@ -1,0 +1,146 @@
+[
+    {
+        "file":  "landscape.jpg",
+        "source":  "Pics/Start02.jpg",
+        "width":  1600,
+        "height":  450,
+        "bytes":  154428,
+        "rights":  "Project reference asset; no blanket reuse license is granted."
+    },
+    {
+        "file":  "landscape-small.jpg",
+        "source":  "Pics/Start02.jpg",
+        "width":  800,
+        "height":  225,
+        "bytes":  42684,
+        "rights":  "Project reference asset; no blanket reuse license is granted."
+    },
+    {
+        "file":  "mountains.jpg",
+        "source":  "Pics/Start01.jpg",
+        "width":  1200,
+        "height":  338,
+        "bytes":  103210,
+        "rights":  "Project reference asset; no blanket reuse license is granted."
+    },
+    {
+        "file":  "waterfall.jpg",
+        "source":  "Pics/Start03.jpg",
+        "width":  1000,
+        "height":  393,
+        "bytes":  87369,
+        "rights":  "Project reference asset; no blanket reuse license is granted."
+    },
+    {
+        "file":  "seasontree-map.jpg",
+        "source":  "Pics/Screen01-1920-1080.jpg",
+        "width":  1000,
+        "height":  562,
+        "bytes":  129246,
+        "rights":  "Project reference asset; no blanket reuse license is granted."
+    },
+    {
+        "file":  "seasontree-city.jpg",
+        "source":  "Pics/Screen03-1920-1080.jpg",
+        "width":  1000,
+        "height":  562,
+        "bytes":  142592,
+        "rights":  "Project reference asset; no blanket reuse license is granted."
+    },
+    {
+        "file":  "ink-study.jpg",
+        "source":  "Pics/Screen04-1920-1080.jpg",
+        "width":  960,
+        "height":  540,
+        "bytes":  120652,
+        "rights":  "Project reference asset; no blanket reuse license is granted."
+    },
+    {
+        "file":  "classic-archive.jpg",
+        "source":  "SanguoWebsite/LinyuanleWebSite2/Images2/GameSummary.jpg",
+        "width":  500,
+        "height":  249,
+        "bytes":  52915,
+        "rights":  "Project reference asset; no blanket reuse license is granted."
+    },
+    {
+        "file":  "classic-map.jpg",
+        "source":  "SanguoWebsite/LinyuanleWebSite2/Images2/StratagemView.jpg",
+        "width":  500,
+        "height":  249,
+        "bytes":  44493,
+        "rights":  "Project reference asset; no blanket reuse license is granted."
+    },
+    {
+        "file":  "classic-city.jpg",
+        "source":  "SanguoWebsite/LinyuanleWebSite2/Images2/InnovatePlay.jpg",
+        "width":  500,
+        "height":  249,
+        "bytes":  50615,
+        "rights":  "Project reference asset; no blanket reuse license is granted."
+    },
+    {
+        "file":  "sanguoseason.png",
+        "source":  "Sanguo/SanguoSeason/Resources/Raw/Assets/favicon.png",
+        "width":  128,
+        "height":  128,
+        "bytes":  35769,
+        "rights":  "Project reference asset; no blanket reuse license is granted."
+    },
+    {
+        "file":  "site-mark.png",
+        "source":  "Sanguo/SanguoSeason/Resources/Raw/Content/Textures/MainMenu/SeasonMain.png",
+        "width":  128,
+        "height":  128,
+        "bytes":  36127,
+        "rights":  "Project reference asset; no blanket reuse license is granted."
+    },
+    {
+        "file":  "zhsan.png",
+        "source":  "Sanguo/ZHSan/Resources/Raw/Assets/favicon.png",
+        "width":  128,
+        "height":  128,
+        "bytes":  43142,
+        "rights":  "Project reference asset; no blanket reuse license is granted."
+    },
+    {
+        "file":  "social.jpg",
+        "source":  "Pics/Start01.jpg",
+        "width":  1200,
+        "height":  338,
+        "bytes":  99248,
+        "rights":  "Project reference asset; no blanket reuse license is granted."
+    },
+    {
+        "file":  "creators-map.svg",
+        "source":  "History/docs/assets/img/creators-map.svg",
+        "width":  1200,
+        "height":  600,
+        "bytes":  2208,
+        "rights":  "Original site illustration; not game artwork or a historical source."
+    },
+    {
+        "file":  "ming-study.svg",
+        "source":  "History/docs/assets/img/ming-study.svg",
+        "width":  1200,
+        "height":  600,
+        "bytes":  2448,
+        "rights":  "Original site illustration; not game artwork or a historical source."
+    },
+    {
+        "file":  "Sun.png",
+        "source":  "SeasonEngine/docs/assets/img/Sun.png; independent copy bundled with this site.",
+        "width":  200,
+        "height":  200,
+        "bytes":  32406,
+        "rights":  "Project reference asset; no blanket reuse license is granted."
+    },
+    {
+        "file":  "Moon.png",
+        "source":  "SeasonEngine/docs/assets/img/Moon.png; independent copy bundled with this site.",
+        "width":  177,
+        "height":  152,
+        "bytes":  15764,
+        "rights":  "Project reference asset; no blanket reuse license is granted."
+    }
+]
